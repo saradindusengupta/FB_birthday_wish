@@ -22,7 +22,7 @@ like = True;
 comment = True;
 
 #the list of messages from which you want a random message to be selected
-message_set = ['Thank you very much', 'Thanks a lot', 'Thank you!']
+message_set = ['message 1', 'message 2', 'message 3']
 
 #if false, replies to every post. Make it false if you are sure every wish posted on your wall is a birthday message
 use_filter = True
@@ -38,7 +38,7 @@ bdaywords = ["happy", "bday", "b\'day", "birthday","hbd", "wish", "returns",,"ma
 
 
 #calculate utc timestamp
-epoch=datetime(1970,1,1)
+epoch=datetime(1995,6,19)
 td = bday - epoch
 utc_bday = int((td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 1e6)
 
