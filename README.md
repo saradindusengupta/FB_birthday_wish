@@ -1,6 +1,6 @@
 Replies_to_FB_birthday_wish
 To comment ,like on birthday post on the timeline.
-This script uses the facebook's Graph API ; here: https://developers.facebook.com/docs/graph-api.
+This script uses the facebook's Graph API ; Here: https://developers.facebook.com/docs/graph-api.
 To get the access token visit here: https://developers.facebook.com/tools/explorer
 To make the script operate correctly place it in the working directory [/home/username]
 
@@ -11,5 +11,7 @@ Fot urllib ; it has been divided to urllib.request and urllib.error for Python3.
 re is for regular expression
 
 Run : sudo pip3 install urllib.request request re sys  To install the dependencies
+
+Proxy settings : if there is any need for proxy to use the internet otherwise dont uncomment it
 
 
