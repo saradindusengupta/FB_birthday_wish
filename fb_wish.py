@@ -1,5 +1,6 @@
+#!/bin/bash/python3
 import sys
-from urllib import urlencode
+from urllib.requests import urlencode
 import requests
 from urlparse import urlparse, parse_qs
 from random import choice
@@ -12,8 +13,8 @@ import calendar
 #your birthday: datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
 bday = datetime(1995, 6, 19, 4, 30, 0)
 
-#access_token: Generate one at https://developers.facebook.com/tools/explorer
-access_token = "EAACEdEose0cBAM9scb7j3Wo2g2bNFxtAD7EJ5jZAlzFbC6wUQJBv2Vi9eP4SFv3fPZC6ZCYXNSN3pAH2oqOYCzYAZAmHX27lk2eNZBid66Y5CGK1Wlihm37kWJZCWGdZAiHsRWnu51LMPWOacvDhp3r3qL7fjucfcCMOTWZCBhRm33ZBQZB6tdZBjutujeMz8I1x48ZD"
+#access_token:Take a look at the readme file
+access_token = ""
 
 #set true to like posts on your wall
 like = True;
@@ -28,7 +29,7 @@ message_set = ['message 1', 'message 2', 'message 3']
 use_filter = True
 
 #keywords to respond to. Comment only on posts containing at lease one of these words
-bdaywords = ["happy", "bday", "b\'day", "birthday","hbd", "wish", "returns",,"many many happy returns","Hpy","hpy","HBD"]
+bdaywords = ["happy", "bday", "b\'day", "birthday","hbd", "wish", "returns",,"many many happy returns","Hpy","hpy","HBD","BIRTHDAY"]
 
 #proxy settings; uncomment if necessary 
 #http_proxy = 
