@@ -10,7 +10,9 @@ To install the dependent librarries use pip3 instead of pip.
 Fot urllib ; it has been divided to urllib.request and urllib.error for Python3. Use pip3 separately.
 re is for regular expression
 
-Run : sudo pip3 install urllib.request request re sys  To install the dependencies
+Run :
+$sudo pip3 install urllib.request request re sys  
+To install the dependencies
 
 Proxy settings : if there is any need for proxy to use the internet otherwise dont uncomment it
 
